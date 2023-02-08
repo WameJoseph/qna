@@ -130,4 +130,21 @@ nav .s{
     nav{
         padding: 0 5%;
     }
+
+    nav .logo{
+        margin-right: 0;
+    }
+
+
+    nav .sp1{
+        display: flex; align-items: center; justify-content: flex-start; gap: 10px;
+    }
+
+    nav .sp1 i{
+        font-size: 24px;
+    }
+
+    nav .s{
+        margin-left: auto;
+    }
 }
