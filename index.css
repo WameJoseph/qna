@@ -321,6 +321,7 @@ footer {
     padding: 10px;
 }
 
+
 .sectiona .product {
     background-color: #FAFCFF;
     max-width: 80%;
@@ -401,8 +402,9 @@ footer {
 }
 
 .sectionb {
-    width: 80%;
+    width: 95%;
     margin-top: 40px;
+    max-width: 1300px;
 }
 
 .sectionb h2 {
@@ -425,16 +427,50 @@ footer {
     flex-wrap: wrap;
 }
 
+
+
 .sectionb .table_container .table_active .table_active_item {
     display: flex;
     flex-direction: column;
+    padding: 10px;
+}
+
+.sectionb .table_container .table_active .table_active_item small {
+    font-size: 11px;
 }
 
 .sectionb .table_container .table_active .table_active_item a {
     color: #1A70C5;
     margin-top: 5px;
+    text-decoration: underline;
 }
 
+.sectionb .table_container .table_active .table_active_item p {
+    font-weight: 500;
+    margin-top: 5px;
+    color: #354C5E;
+}
+
+.sectionc {
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sectionc h3 {
+    color: #354c5e;
+    margin-bottom: 10px;
+}
+
+.sectionc p {
+    color: #516e84;
+    margin-bottom: 10px;
+}
+
+.sectionc a {
+    text-decoration: underline;
+    color: #1A70C5;
+}
 
 @media screen and (max-width: 1000px) {
     nav{
