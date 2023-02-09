@@ -475,6 +475,16 @@ footer {
     color: #1A70C5;
 }
 
+.list_info {
+    width: 90%;
+    color: #516e84;
+}
+
+.list_info a {
+    color: #1A70C5;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1000px) {
     nav{
         padding: 0 4%;
