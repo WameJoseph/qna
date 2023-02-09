@@ -13,6 +13,23 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div class="side_nav" id="sideNav">
+        <form>
+            <input placeholder="Search" type="search" class="search"/>
+            <button type="submit"><i class="material-icons">search</i></button>
+        </form>
+
+        <div class="sidenav_list">
+            <a href=""> <i class="material-icons-outlined">person</i> Login/Register</a>
+            <a href=""> <i class="material-icons-outlined">edit</i> Contact</a>
+            <a href=""> <i class="material-icons-outlined">help_outline</i>FAQ</a>
+            <a href=""> <i class="material-icons-outlined cl">menu_book</i> Premium</a>
+            <a href=""> <i class="material-icons-outlined cl">insert_drive_file</i> New Files</a>
+            <a href=""> <i class="material-icons-outlined cl">format_list_bulleted</i> Video Courses</a>
+            <a href=""> <i class="material-icons-outlined cl">drive_file_rename_outline</i>Request Exam</a>
+
+        </div>
+    </div>
     <nav>
         <a href="" class="logo">
             <h1>EXERE.</h1>
@@ -27,7 +44,9 @@
             <a href="" class="signup cart"><i class="material-icons-outlined">shopping_cart</i></a>
         </span>
         <i class="material-icons s">search</i>
-        <i class="material-icons i">menu</i>
+        <i class="material-icons i" id="i" onclick="sideNavOn();">menu</i>
+        <i class="material-icons x" id="x" onclick="sideNavOff();">close</i>
+
     </nav>
     <header>
         <div class="nav2">
@@ -67,62 +86,62 @@
                 </span>
                 <span class="">
                     <a class="vendor">Microsoft</a>
-                    <a class="exam">DOY24</a>
+                    <a  href="./exam.html" class="exam">DOY24</a>
                     <a class="file">R43874UHUGDJNFJBHGEDUGFTGV</a>
                 </span>
                 <span class="">
                     <a class="vendor">Comptia</a>
-                    <a class="exam">SLL23</a>
+                    <a  href="./exam.html" class="exam">SLL23</a>
                     <a class="file">R43874UHUGDJNFJBHGEDUGFTGV</a>
                 </span>
                 <span class="">
                     <a class="vendor">AMAZON</a>
-                    <a class="exam">3000</a>
+                    <a   href="./exam.html"class="exam">3000</a>
                     <a class="file">R43874UHUGDJNFJBHGEDUGFTGV</a>
                 </span>
                 <span class="">
                     <a class="vendor">Ulver</a>
-                    <a class="exam">SYL200</a>
+                    <a  href="./exam.html" class="exam">SYL200</a>
                     <a class="file">R43874UHUGDJNFJBHGEDUGFTGV</a>
                 </span>
                 <span class="">
                     <a class="vendor">Microsoft</a>
-                    <a class="exam">DOY24</a>
+                    <a  href="./exam.html" class="exam">DOY24</a>
                     <a class="file">R43874UHUGDJNFJBHGEDUGFTGV</a>
                 </span>
                 <span class="">
                     <a class="vendor">Comptia</a>
-                    <a class="exam">SLL23</a>
+                    <a  href="./exam.html" class="exam">SLL23</a>
                     <a class="file">R43874UHUGDJNFJBHGEDUGFTGV</a>
                 </span>
                 <span class="">
                     <a class="vendor">AMAZON</a>
-                    <a class="exam">3000</a>
+                    <a  href="./exam.html" class="exam">3000</a>
                     <a class="file">R43874UHUGDJNFJBHGEDUGFTGV</a>
                 </span>
                 <span class="">
                     <a class="vendor">Ulver</a>
-                    <a class="exam">SYL200</a>
+                    <a  href="./exam.html"  class="exam">SYL200</a>
                     <a class="file">R43874UHUGDJNFJBHGEDUGFTGV</a>
                 </span>
                 <span class="">
                     <a class="vendor">Microsoft</a>
-                    <a class="exam">DOY24</a>
+                    <a href="./exam.html" class="exam">DOY24</a>
                     <a class="file">R43874UHUGDJNFJBHGEDUGFTGV</a>
                 </span>
                 <span class="">
                     <a class="vendor">Comptia</a>
-                    <a class="exam">SLL23</a>
+                    <a href="./exam.html" class="exam">SLL23</a>
                     <a class="file">R43874UHUGDJNFJBHGEDUGFTGV</a>
                 </span>
                 <span class="">
                     <a class="vendor">AMAZON</a>
-                    <a class="exam">3000</a>
+                    <a href="./exam.html" class="exam">3000</a>
                     <a class="file">R43874UHUGDJNFJBHGEDUGFTGV</a>
                 </span>
                 <span class="">
                     <a class="vendor">Ulver</a>
-                    <a class="exam">SYL200</a>
+                    <a href="./exam.html" class="exam">SYL200</a>
                     <a class="file">R43874UHUGDJNFJBHGEDUGFTGV</a>
                 </span>
             </div>
@@ -163,6 +182,7 @@
     </footer>
 
 </body>
+<script src="./index.js"></script>
 </html>
 
 <!-- FCFCFC -->
