@@ -11,6 +11,7 @@ nav{
     padding: 0 7%;
     height: 85px; border-bottom: solid 1px silver;
     position: sticky; top: 0;  gap: 25px;
+    background-color: white;
 }
 
 nav .logo{ display: flex; flex-direction: column; align-items: flex-start;
@@ -71,6 +72,10 @@ nav .icons .signup{
     background-color: rgba(178, 181, 184, 0.2); color: #1f1f1f;
 }
 
+nav .icons .signup:hover{
+    background-color: rgba(178, 181, 184, 0.6); color: #1f1f1f;
+}
+
 nav .icons .signup i{
     padding: 6px; background-color: rgba(81, 110, 132, 0.1); border-radius: 100%;
     color: #1f1f1f; margin-right: 10px; font-size: 20px;
@@ -109,6 +114,38 @@ header .nav3 .exams::-webkit-scrollbar{display: none;}
 
 header .nav3 .exams a{display: flex; align-items: center; justify-content: center; color: white; font-size: 18px; text-decoration: underline; text-decoration-color: #2F67FA; text-decoration-thickness: 3px; }
 
+main{
+    width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+}
+
+main .sectioni{ gap: 25px; width: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: center; padding: 60px 0; height: 600px;}
+
+main .sectioni h1{
+    font-size: 48px; font-weight: 500;  color: #1f1f1f; text-align: center;
+}
+
+main .sectioni h5{color: #516e84; font-weight: 400; width: 80%; text-align: center; font-size: 20px; letter-spacing: 1.5px; line-height: 150%;}
+
+main .sectioni .srch{
+    width: fit-content; display: flex; justify-content: center; align-items: center; gap: 20px; height: 60px; margin-top: 20px;
+}
+
+main .sectioni .srch input{ height: 100%; width: 350px; border-radius: 5px; border: none; outline: solid 1px silver; padding: 0 15px; font-size: 18px;}
+
+main .sectioni .srch button{ height: 100%; width: 150px; background-color: #2048ad; color: white; border-color: #2048ad; outline: none; font-size: 22px; letter-spacing: 1.5px;
+    border: none; outline: none; border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width: 1000px) {
@@ -141,6 +178,11 @@ header .nav3 .exams a{display: flex; align-items: center; justify-content: cente
     
 
     nav .i{ display: flex; color: #1f1f1f; font-size: 24px; margin-left: 10px;}
+
+    main .sectioni h1{ font-size: 36px; width: 80%;}
+
+    main .sectioni h5{color: #516e84; font-weight: 400; width: 80%; text-align: center; font-size: 16px; letter-spacing: 1.5px; }
+
 }
 
 @media screen and (max-width: 720px) {
@@ -190,5 +232,20 @@ header .nav3 .exams a{display: flex; align-items: center; justify-content: cente
     header .nav3 .title{
         display: none;
     }
+
+    main .sectioni{ gap: 20px; padding: 30px 0; height: fit-content;}
+
+
+    main .sectioni h1{ font-size: 28px; width: 90%; text-align: left;}
+
+    main .sectioni h5{text-align: left; width: 90%; }
+
+    main .sectioni .srch{
+     gap: 10px; height: 50px; margin-top: 20px;
+    }
+
+    main .sectioni .srch input{ height: 100%; width: 200px;}
+
+    main .sectioni .srch button{ height: 100%; width: 130px; background-color: #2048ad; color: white; border-color: #2048ad; outline: none; font-size: 18px; letter-spacing: 1.5px; border-radius: 5px;}
 
 }
