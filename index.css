@@ -225,7 +225,7 @@ main .sectionii .txt{font-size: 35px; color: #354c5e; letter-spacing: 1.5px;}
 
 main .sectionii .fl{ width: 100%; padding: 0 7%;}
 
-main .sectionii .fl span{ width: 100%; display: flex; align-items: center; justify-content: flex-start; gap: 20px; overflow-y: scroll; border: ;}
+main .sectionii .fl span{ width: 100%; display: flex; align-items: center; justify-content: flex-start; gap: 20px; overflow-y: scroll;}
 
 main .sectionii .fl span::-webkit-scrollbar{ display: none;}
 
@@ -432,7 +432,10 @@ footer {
 .sectionb .table_container .table_active .table_active_item {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding: 10px;
+    flex: 1;
+    max-width: 33.3%;
 }
 
 .sectionb .table_container .table_active .table_active_item small {
@@ -518,7 +521,14 @@ footer {
         margin: 20px 5px;
     } 
 
-    main .sectionii .fl span{ width: 100%; display: flex; align-items: center; justify-content: flex-start; gap: 10px; overflow-y: scroll; border: ;}
+    main .sectionii .fl span{ 
+        width: 100%; 
+        display: flex; 
+        align-items: center; 
+        justify-content: flex-start; 
+        gap: 10px; 
+        overflow-y: scroll;
+    }
 
     main .sectioniii .list span .file{
         width: 250px; overflow: hidden;
