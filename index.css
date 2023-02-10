@@ -485,6 +485,138 @@ footer {
     text-decoration: underline;
 }
 
+
+/* Register Page */
+.form_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+
+.form_container h2{
+    color: #354c5e;
+}
+
+.form_container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+form .input_container {
+    width: 100%;
+    max-width: 400px;
+}
+
+form .input_container p {
+    color: #354c5e;
+}
+
+form .input_container input {
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid silver;
+    font-size: 16px;
+}
+
+form .input_container input::placeholder {
+    color: silver;
+}
+
+.form_container form .form_extra {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+}
+
+.form_container form .form_extra a {
+    color: #1A70C5;
+}
+
+.form_container form .form_extra .radio_container {
+    display: flex;
+    align-items: center;
+}
+
+.form_container form .form_extra .radio_container p {
+    margin-left: 10px;
+    color: #354c5e;
+}
+
+form button {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    background-color: #54C547;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form_container p a {
+    color: #1A70C5;
+    font-weight: 700;
+}
+
+
+/* FAQ Styling */
+.faq_sectiona {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.faq_sectiona h1 {
+    color: #354c5e;
+}
+
+.faq_container h2 {
+    color: #354c5e;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.faq_container div {
+    background-color: #FAFCFF;
+    width: 100%;
+    max-width: 700px;
+    padding: 10px;
+    border: .5px solid rgb(235, 235, 235);
+}
+
+.faq_container div a {
+    color: #1A70C5;
+    text-decoration: underline;
+}
+
+.faq_container div p {
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+
 @media screen and (max-width: 1000px) {
     nav{
         padding: 0 4%;
