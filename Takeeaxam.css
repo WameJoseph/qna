@@ -1,0 +1,33 @@
+main .sectiontop{
+    width: 100%; display: flex; align-items: center; justify-content: center;
+    margin: 40px 0;
+}
+
+main .sectiontop .examtitle{
+    width: 600px; height: 300px;
+    border: solid 1px gray;
+    display: flex; align-items: center; justify-content: flex-start; flex-direction: column;
+}
+
+main .sectiontop .examtitle .top{
+    width: 100%; height: 40px;
+    background-color: #1A70C5;
+}
+
+main .sectiontop .examtitle .examname{
+    font-size: 28px; font-weight: 800; letter-spacing: 1px;
+    margin: 35px 0;
+}
+
+main .sectiontop .examtitle .instructions{
+    display: flex; align-items: flex-start; justify-content: flex-start; flex-direction: column;
+    margin: 5px 0;
+    width: 90%;
+    row-gap: 15px;
+     /* border: solid; */
+}
+
+main .sectiontop .examtitle .instructions .t1{
+    font-size: 20px; font-weight: 500;
+
+}
