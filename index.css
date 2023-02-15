@@ -1,5 +1,9 @@
 *{transition: 300ms; margin: 0; padding: 0; box-sizing: border-box; font-family: 'Raleway', sans-serif;}
 
+*::-webkit-scrollbar{
+    display: none !important;
+}
+
 button{cursor: pointer;}
 
 a{
@@ -786,5 +790,22 @@ form button {
     .sectionb h2 {
         font-size: 28px;
     }
+
+    main .sectionii .fl .span a{
+        background-color: white; height: 130px; width:130px; padding: 0 00px; display: flex; justify-content: center; align-items: center;
+        margin: 20px 5px; background-size: cover; background-position: center;  outline: solid 1px silver; border: solid 1px white;
+        padding: 5px;
+    } 
     
+
+    main .sectionii .fl .span a .content{
+        padding: 5px;
+    } 
+
+    main .sectionii .fl .span a .content p{
+        text-align: center;
+        color: white;
+        font-size: 16px;
+        /* border: solid white 1px; */
+    } 
 }
