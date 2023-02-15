@@ -680,6 +680,10 @@ form button {
         text-overflow: ellipsis; white-space: nowrap;
     } 
     
+
+    .sectionb h2 {
+        font-size: 36px;
+    }
 }
 
 @media screen and (max-width: 720px) {
@@ -760,5 +764,8 @@ form button {
         text-overflow: ellipsis; white-space: nowrap;
     } 
 
+    .sectionb h2 {
+        font-size: 28px;
+    }
     
 }
