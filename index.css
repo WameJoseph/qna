@@ -223,19 +223,38 @@ main .sectionii{padding: 60px 0; width: 100%; height: fit-content; display: flex
 
 main .sectionii .txt{font-size: 35px; color: #354c5e; letter-spacing: 1.5px;}
 
-main .sectionii .fl{ width: 100%; padding: 0 7%;}
+main .sectionii .fl{ width:83%; padding: 0 0%; overflow: scroll;}
 
-main .sectionii .fl span{ width: 100%; display: flex; align-items: center; justify-content: flex-start; gap: 20px; overflow-y: scroll;}
+main .sectionii .fl .span{width: fit-content; display: flex; align-items: center; justify-content: space-between; gap: 20px; overflow: scroll;}
 
-main .sectionii .fl span::-webkit-scrollbar{ display: none;}
+main .sectionii .fl .span::-webkit-scrollbar{ display: none;}
 
-main .sectionii .fl a{
-    background-color: white; height: 200px; padding: 0 100px; display: flex; justify-content: center; align-items: center;
+main .sectionii .fl .span a{
+    background-color: white; height: 200px; width:200px; padding: 0 00px; display: flex; justify-content: center; align-items: center;
     margin: 20px 5px; background-size: cover; background-position: center;  outline: solid 1px silver; border: solid 5px white;
 } 
 
-main .sectionii .fl a:hover{
+main .sectionii .fl .span a:hover{
     box-shadow: 0 0 20px rgb(47, 103, 250, 0.4);
+} 
+
+main .sectionii .fl .span a .content{
+    width: 100%;
+    height: 100%;
+    display: flex; justify-content: center; align-items: center;
+    background-color: rgba(51, 50, 50, 0.9);
+    opacity: 0;
+    padding: 20px;
+} 
+
+main .sectionii .fl .span a .content:hover{
+    opacity: 1;
+} 
+
+main .sectionii .fl .span a .content p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
 } 
 
 main .sectionii .seeall{
