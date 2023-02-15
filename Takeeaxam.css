@@ -110,12 +110,126 @@ main .sectiontop .examquestions .next:hover{
 }
 
 .discussionmodal{
+    display: flex; align-items: center; justify-content: center;
     width: 100%;
     height: 100vh;
     position: fixed;
-    background-color: rgb(118, 118, 118, 0.7);
+    background-color: rgba(24, 24, 24, 0.8);
     z-index: 2;
+    padding: 20px;
+    display: none;
 }
+
+.discussionmodal .disc{
+    display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+    width: 600px;
+    height:100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.discussionmodal .disc .c{
+    display: flex; align-items: center; justify-content:flex-end;
+    width: 100%; 
+    margin-bottom: 20px;
+    /* border: solid; */
+    cursor: pointer;
+}
+
+.discussionmodal .disc form{
+    width: 100%;
+}
+
+.discussionmodal .disc form textarea{
+    width: 100%; padding: 15px;
+    border-radius: 5px;
+}
+
+.discussionmodal .disc form textarea::placeholder{
+    font-size: 16px;
+}
+
+.discussionmodal .disc form button[type=submit]{
+    padding: 15px 30px;
+    width: fit-content; letter-spacing: 1px;
+}
+
+.discussionmodal .disc form button[type=submit]:hover{
+    opacity: 0.8;
+}
+
+.discussionmodal .disc .comments{
+    width: 100%;
+    display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start;
+    overflow: scroll;
+    /* border: solid; */
+    height: 100%;
+    margin: 20px 0;
+}
+
+.discussionmodal .disc .comments .comment{
+    width: 100%;
+    /* height: 300px;     */
+    /* border: solid; */
+    margin-bottom: 10px; 
+    cursor: pointer;
+}
+
+.discussionmodal .disc .comments .comment .top{
+    width: 100%;
+    display: flex; align-items: center; justify-content: flex-start;
+    gap: 10px;
+    padding: 15px 0;
+    padding-bottom: 7px;
+}
+
+.discussionmodal .disc .comments .comment .top .username{
+    font-size: 16px; font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
+.discussionmodal .disc .comments .comment .top .time{
+    font-size: 14px; font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.discussionmodal .disc .comments .comment .com{
+    font-size: 16px; font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 35px; line-height: 150%;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.discussionmodal .disc .comments .comment .like{
+    width: 100%; display: flex; justify-content: flex-start; align-items: center;
+    padding-left: 30px;
+    margin-top: 5px; gap: 12px;
+}
+
+.discussionmodal .disc .comments .comment .like i{
+    width: 50px; height: 50px; border-radius: 100%; display: flex; justify-content: center; align-items: center;
+}
+
+.discussionmodal .disc .comments .comment .like i:hover{
+    background-color: rgba(24, 24, 24, 0.1);
+}
+
+.discussionmodal .disc .comments .comment .like p{
+    margin-left: auto; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; color: #6c757d; font-size: 16px;
+    letter-spacing: 0.3px;
+}
+
+.discussionmodal .disc .comments .comment .replies{
+    width: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: center;
+    /* border-top: solid 1px silver; */
+    width: 93%;
+    margin-left: auto;
+    /* margin-top: 10px; */
+}
+
 
 
 @media screen and (max-width: 650px ) {
@@ -155,5 +269,22 @@ main .sectiontop .examquestions .next:hover{
     main .sectiontop .examquestions .ex .ansdiv a{
         height: 45px;
     }
+    .discussionmodal{
+        position: fixed;
+        background-color: rgba(24, 24, 24, 0.8);
+        z-index: 2;
+        padding: 0px;
+    }
     
+    .discussionmodal .disc{
+        display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+        width: 100%;
+        height:90%;
+        background-color: white;
+        border-radius: 0px;
+        padding: 20px;
+        margin-top: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
 }
