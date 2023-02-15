@@ -65,12 +65,12 @@ main .sectiontop .examquestions .ex .Question .t{
     line-height: 180%;
 }
 
-main .sectiontop .examquestions .ex .Question ul{
+main .sectiontop .examquestions .ex .Question ol{
     margin-top: 40px;
     margin-left: 5%;
 }
 
-main .sectiontop .examquestions .ex .Question ul li{
+main .sectiontop .examquestions .ex .Question ol li{
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     font-weight: 300;
@@ -230,6 +230,14 @@ main .sectiontop .examquestions .next:hover{
     /* margin-top: 10px; */
 }
 
+main .sectiontop .examquestions .ex .Question .answer{
+    display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;
+    width: 100%;
+    border-top: solid 1px silver;
+    margin: 20px 0;
+    display: none;
+}
+
 
 
 @media screen and (max-width: 650px ) {
@@ -287,4 +295,19 @@ main .sectiontop .examquestions .next:hover{
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
+
+    main .sectiontop .examquestions .ex .Question .t{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 180%;
+    }
+
+    main .sectiontop .examquestions .ex .Question ol li{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 180%;
+    }
+    
 }
