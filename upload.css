@@ -279,7 +279,7 @@ main .sectiona1 .existingebooks .ebook .text .ebookprice{
 @media screen and (max-width: 600px)  {
 
     main .sectiona1{
-        width: 95%; display: flex;
+        width: 98%; display: flex;
         flex-direction: column; align-items: center; justify-content: flex-start;
     }
 
