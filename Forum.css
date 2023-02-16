@@ -1,0 +1,40 @@
+main .sectioni{
+    width: 70%;
+}
+
+main .sectioni2{
+    width: 100%;
+    display: flex; flex-direction: row;
+    justify-content: space-between;
+    padding: 0 7%;
+    flex-wrap: wrap;
+}
+
+main .sectioni2 .post{
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    border: solid 1px;
+    margin-bottom: 40px;
+    display: flex; flex-direction: column; justify-content: space-between; align-items: center;
+    padding: 25px 20px;
+}
+
+main .sectioni2 .post .top{
+    display: flex; align-items: center; justify-content: space-between;
+    margin-right: auto;
+    gap: 10px;
+}
+
+main .sectioni2 .post .cmnt{
+    font-size: 16px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 80%;
+}
+
+main .sectioni2 .post .reply{
+    margin-left: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
