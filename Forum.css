@@ -2,6 +2,14 @@ main .sectioni{
     width: 70%;
 }
 
+main .sectioni h1{
+    text-align: center;
+}
+
+main .sectioni h5{
+    text-align: center;
+}
+
 main .sectioni2{
     width: 100%;
     display: flex; flex-direction: row;
@@ -37,4 +45,10 @@ main .sectioni2 .post .reply{
     margin-left: auto;
     margin-right: 20px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    main .sectioni{
+        width: 90%;
+    }
 }
