@@ -13,8 +13,17 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="Admin.css">
 </head>
 <body>
+    <div class="passkey">
+        <form action="">
+            <i class="material-icons c">close</i>
+            <label for="">Passkey</label>
+            <input type="pasword" placeholder="Enter your admin passkey">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
     <div class="side_nav" id="sideNav">
         <form>
             <input placeholder="Search" type="search" class="search"/>
@@ -61,6 +70,24 @@
         </div>
     </header>
 
+    <main>
+        <p class="dashboard">Dashboard</p>
+        <div class="sp1">
+
+            <div class="ebooks">
+                <p class="title">eBooks</p>
+                <a href="upload.html" class="upload">
+                    <i class="material-icons">file_upload</i>
+                    <p class="txt">Upload a new ebook</p>
+                </a>
+                <span class="created"><p> eBooks created: 300</p> <a href="ebook.html">View all <i class="material-icons">chevron_right</i></a></span>
+                <span class="created purchased"><p> eBooks purchased: 200</p> <a href="ebook.html">Total Revenue:  NGN 3,000,000</a></span>
+            </div>
+            <div class="exams">
+
+            </div>
+        </div>
+    </main>
 
 
 
