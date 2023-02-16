@@ -13,17 +13,9 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
-    <link rel="stylesheet" href="Admin.css">
+    <link rel="stylesheet" href="Questionupload.css">
 </head>
 <body>
-    <div class="passkey">
-        <form action="">
-            <i class="material-icons c">close</i>
-            <label for="">Passkey</label>
-            <input type="pasword" placeholder="Enter your admin passkey">
-            <button type="submit">Submit</button>
-        </form>
-    </div>
     <div class="side_nav" id="sideNav">
         <form>
             <input placeholder="Search" type="search" class="search"/>
@@ -69,28 +61,66 @@
             <span class="exams"> <a href="vendors.html">Microsoft</a><a href="vendors.html">Cisco</a><a href="vendors.html">compTIA</a><a href="vendors.html">AMAZON</a><a href="">PIM</a<a href="vendors.html">compTIA</a><a href="vendors.html">AMAZON</a><a href="">PIM</a<a href="vendors.html">compTIA</a><a href="vendors.html">AMAZON</a><a href="">PIM</a><a href="vendors.html">compTIA</a><a href="vendors.html">AMAZON</a><a href="">PIM</a<a href="vendors.html">compTIA</a><a href="vendors.html">AMAZON</a><a href="">PIM</a></span>
         </div>
     </header>
-
     <main>
-        <p class="dashboard">Dashboard</p>
-        <div class="sp1">
-
-            <div class="ebooks">
-                <p class="title">eBooks</p>
-                <a href="upload.html" class="upload">
-                    <i class="material-icons">file_upload</i>
-                    <p class="txt">Upload a new ebook</p>
-                </a>
-                <span class="created"><p> eBooks created: 300</p> <a href="ebook.html">View all <i class="material-icons">chevron_right</i></a></span>
-                <span class="created purchased"><p> eBooks purchased: 200</p> <a href="ebook.html">Total Revenue:  NGN 3,000,000</a></span>
-            </div>
-            <div class="exams">
-                <p class="title">Exams</p>
-
-            </div>
-        </div>
+        <section class="sectionaa1">
+            <p class="title">Upload a Question</p>
+            <form action="">
+                 <span class="sp">
+                    <label for="">Exam Title</label>
+                    <input type="text" placeholder="Enter your exam title">
+                 </span>
+                 <span class="sp">
+                    <label for="">Full Question</label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Enter full question"></textarea>
+                 </span>
+                 <span class="sp">
+                    <label for="">Options</label>
+                    <input type="text" placeholder="Option 1">
+                    <input type="text" placeholder="Option 2">
+                    <input type="text" placeholder="Option 3">
+                    <input type="text" placeholder="Option 4">
+                 </span>
+                 <span class="sp">
+                    <label for="">Solution <h6>(Ensure accuracy*)</h6></label>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Enter full solution..."></textarea>
+                 </span>
+                 <button type="submit">Create Question</button>
+            </form>
+        </section>
     </main>
 
+    <footer>
+        <div class="footer_link">
+            <a href="#">Share VCE File</a>
+            <a href="#">All Vendors</a>
+            <a href="#">eBooks</a>
+            <a href="#">Certifications Guide</a>
+            <a href="#">Archive</a>
+            <a href="#">Blog</a>
+            <a href="#">What We Offer</a>
+            <a href="#">VCE Exam Simulator</a>
+            <a href="#">VCE Player</a>
+            <a href="#">Download VCE Online</a>
+            <a href="#">Open VCE Files</a>
+            <a href="#">Exam Formatter</a>
+            <a href="#">VCE Mobile Tutorial</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+        </div>
 
+            <div class="footer_description">
+                <p>Exere materials do not contain actual questions and answers from Cisco's certifications exams</p>
+            </div>
+    
+            <div class="footer_description">
+                <p>Examcollection.com is owned by Boltprep Ltd. Company address: Wisteria Grange Barn, Pikes End, Pinner, Middlesex, United Kingdom, HA5 2EX</p>
+            </div>
+    
+            <div class="footer_description">
+                <p>Payments will appear on your bank statement as "Examcollection.com". © 2023 ExamCollection</p>
+            </div>
+        
+    </footer>
 
 </body>
 <script src="./index.js"></script>
